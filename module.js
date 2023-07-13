@@ -1,5 +1,5 @@
 export async function fetchTest() {
-    return (await fetch("kelbazz.github.io").then(r => r.text()));
+    return (await fetch("https://kelbazz.github.io").then(r => r.text()));
 }
 export async function logTest() {
      console.log("Hello");
